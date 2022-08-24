@@ -1,0 +1,23 @@
+<h1  class="" mat-dialog-title>Add Student balance</h1>
+<div mat-dialog-content>
+    <form [formGroup]="studentFee">
+        <mat-form-field appearance="outline">
+            <mat-label>Student Name</mat-label>
+            <input  formControlName="student_name" matInput placeholder="Enter Name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label> Gender</mat-label>
+            <mat-select formControlName="gender" placeholder="Gender">
+            <mat-option value="male">Male
+            </mat-option>
+            <mat-option value="female">female
+            </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Amount </mat-label>
+            <input formControlName="amount" matInput placeholder="Enter Amount">
+        </mat-form-field> 
+    </form> 
+    <button type="submit" mat-raised-button class="delete" (click)="addStudent()">submit</button>
+</div>

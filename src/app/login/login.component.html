@@ -1,0 +1,23 @@
+<app-header></app-header>
+<hr>
+<div class="main-div">
+    <div class="left-content">
+        <h1>Welcome to  <br><span>Jitu Cohort </span> <br>Our mission</h1> <br>
+        <p class="par">Jitu cohort is where learning begins, we are dedicated to equip our developers <br> with the necessary  skills highly
+            demanded.
+            <br> reach us for more infomation
+        </p>
+        <button class="cn"><a href="#">JOIN US</a></button>
+        
+    </div>
+    <div class="right-content">
+        <div class="form">
+            <div [ngStyle]="{'display': errorMsg? 'block' : 'none' }" class="error">{{ errorMsg | uppercase }}</div>
+            <h2>Login Here</h2>
+            <input type="email" name="uname"  [(ngModel)]="username" placeholder="Enter Email Here">
+            <input type="password" name="pword"   [(ngModel)]="password"
+            placeholder="Enter Password Here">
+            <button class="btnn"  (click)="login()">Login</button>
+        </div>
+    </div>
+</div>

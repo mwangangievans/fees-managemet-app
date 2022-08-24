@@ -1,0 +1,10 @@
+
+table {
+    width: 100%;
+  }
+
+ .all-students
+ {
+    height: 400px !important;
+    overflow-y: scroll;
+ }

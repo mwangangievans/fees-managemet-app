@@ -1,0 +1,9 @@
+.muinde {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    color: #ff7200;
+    cursor: pointer;
+    height: 80px;
+}

@@ -1,0 +1,20 @@
+<mat-toolbar [ngStyle]="{'background':'linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%)','height': '10vh'}">
+    <div class="muinde">
+        <div  >
+            <span class="material-icons">school </span>
+            <span>Jonathan Academy</span>
+        </div>
+        <!-- <div>
+            <span>Students</span>
+        </div> -->
+    </div>
+    <span [ngStyle]="{'flex':'1 1 auto'}"></span> 
+    <div class="muinde" >
+        <div>
+            <span *ngIf="!auth.Islogged" >Login</span>
+        </div>
+        <div *ngIf="auth.Islogged" >
+            <span (click)="auth.logout()">Logout</span>
+        </div>
+    </div>
+  </mat-toolbar>

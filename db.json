@@ -1,0 +1,92 @@
+{
+  "studendFees": [
+    {
+      "student_name": "kimeu",
+      "gender": "male",
+      "amount": "56.009",
+      "id": 1
+    },
+    {
+      "student_name": "rose ",
+      "gender": "female",
+      "amount": "56.09",
+      "id": 2
+    },
+    {
+      "student_name": "tttt",
+      "gender": "male",
+      "amount": "56.009",
+      "id": 3
+    },
+    {
+      "student_name": "tttt",
+      "gender": "male",
+      "amount": "56.009",
+      "id": 4
+    },
+    {
+      "student_name": "uuuu",
+      "gender": "female",
+      "amount": "778.90",
+      "id": 5
+    },
+    {
+      "student_name": "mwangangi",
+      "gender": "male",
+      "amount": "34.99",
+      "id": 6
+    },
+    {
+      "student_name": "mwangangi",
+      "gender": "male",
+      "amount": "34.99",
+      "id": 7
+    },
+    {
+      "student_name": "mimi",
+      "gender": "male",
+      "amount": "56.09",
+      "id": 8
+    },
+    {
+      "student_name": "kimeu",
+      "gender": "female",
+      "amount": "0",
+      "id": 9
+    },
+    {
+      "student_name": "yyy",
+      "gender": "male",
+      "amount": "0",
+      "id": 10
+    },
+    {
+      "student_name": "john",
+      "gender": "male",
+      "amount": "-400",
+      "id": 11
+    },
+    {
+      "student_name": "asimio",
+      "gender": "female",
+      "amount": "-999",
+      "id": 12
+    },
+    {
+      "student_name": "unique",
+      "gender": "male",
+      "amount": "4400",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
